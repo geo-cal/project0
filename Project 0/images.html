@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Images</title>
+        <style>
+            a {
+                text-decoration: none;
+                color:#222;
+            }
+            a:hover{
+                text-decoration: underline;
+                color: gray;   
+            }
+
+            body, html {
+                font-size: small;
+            }
+            body {
+                background: #fff;
+                color: #222;
+            }
+            body, td, a, p, .h, input {
+                font-family: arial,sans-serif;
+            }
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <a  style = "position:absolute; top:10px; right:0px; padding-right:20px"href="index.html" class="text">Search</a>
+
+        <center>
+            <img src = "download.png" alt = "Google">
+
+            <form action = "https://google.com/images">
+                <input type = "text" name="q" style = "width:400px; height:30px; border-radius:30px; outline:gray">
+
+                <br/><br/>
+                <input type = "submit" value="Google Image Search" style = "height:30px; width:150px;">
+            </form>
+        </center>
+    </body>
+</html>
